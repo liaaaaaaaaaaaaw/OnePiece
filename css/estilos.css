@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+header {
+  padding: 0px;
+
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul a {
+  border: 5px solid rgb(71, 71, 179);
+  border-radius: 10px;
+  background-color: rgb(144, 207, 228);
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.per {
+  padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 30px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.individual {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.individual img {
+  max-width: 100%;
+  height: auto;
+}
+
+.individual p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.his {
+  text-align: center;
+}
+
+.his h2 {
+  font-size: 30px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.his p {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 25px;
+  font-style: normal;
+}
+
+.par {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  border-top: 10px solid rgb(180, 33, 33);
+  border-bottom: 10px solid rgb(180, 33, 33);
+  border-left: 10px solid rgb(71, 71, 179);
+  border-right: 10px solid rgb(71, 71, 179);
+}
+
+.par p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.ver {
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+}
+
+.ver h2 {
+  font-size: 30px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.vid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vid video {
+  width: 100%;
+}
+
+.co {
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+}
+
+.co h2 {
+  font-size: 30px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.soc {
+  background-color: rgb(71, 71, 179);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.individual img {
+  border-radius: 20px;
+  border: rgb(71, 71, 179) solid 10px;
+}
